@@ -1,36 +1,36 @@
 {
-    "parent": "item/generated",
+    "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "item/elytra"
+        "layer0": "minecraft:item/elytra"
     },
     "overrides": [
         {
-            "model": "item/broken_elytra",
+            "model": "minecraft:item/broken_elytra",
             "predicate": {
                 "broken": 1
             }
         },
         {
-            "model": "item/diamond_chestplate_with_elytra",
+            "model": "smithing_armored_elytra:item/diamond_chestplate_with_elytra",
             "predicate": {
                 "custom_model_data": 1
             }
         },
         {
-            "model": "item/broken_diamond_chestplate_with_elytra",
+            "model": "smithing_armored_elytra:item/broken_diamond_chestplate_with_elytra",
             "predicate": {
                 "broken": 1,
                 "custom_model_data": 1
             }
         },
         {
-            "model": "item/netherite_chestplate_with_elytra",
+            "model": "smithing_armored_elytra:item/netherite_chestplate_with_elytra",
             "predicate": {
                 "custom_model_data": 2
             }
         },
         {
-            "model": "item/broken_netherite_chestplate_with_elytra",
+            "model": "smithing_armored_elytra:item/broken_netherite_chestplate_with_elytra",
             "predicate": {
                 "broken": 1,
                 "custom_model_data": 2
