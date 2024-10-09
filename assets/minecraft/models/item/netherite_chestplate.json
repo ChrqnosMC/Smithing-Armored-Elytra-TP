@@ -5,7 +5,7 @@
     },
     "overrides": [
         {
-            "model": "minecraft:item/netherite_chestplate_with_elytra",
+            "model": "smithing_armored_elytra:item/netherite_chestplate_with_elytra",
             "predicate": {
                 "custom_model_data": 1
             }
