@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/broken_elytra",
-        "layer1": "item/netherite_chestplate"
-    }
-}
