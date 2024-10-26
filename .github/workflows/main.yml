@@ -41,7 +41,7 @@ jobs:
           modrinth-token: ${{secrets.ACCESS_TOKEN}}
           modrinth-id: qe1rCzuE
           game-version-filter: none
-          name: Smithing Armored Elytra TP ${{env.branch}}-${{env.tag}}
+          name: Smithing Armored Elytra TP 32x ${{env.branch}}-${{env.tag}}
           version: ${{env.tag}}
           files: |
             src/${{env.name}}-${{env.branch}}-${{env.tag}}.zip
